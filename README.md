@@ -15,35 +15,35 @@ This is a repository to showcase skills, share projects and track my progress in
 
 About Portfolio Projects
 
-**Exploratory Data Analysis & Visualization: Focus on trends and storytelling.**
-Electric Power Consumption Analysis
-World Bank Energy & Emissions Analysis
-Cereal Yield Global Analysis
-Infographics Compilation
+  **Exploratory Data Analysis & Visualization: Focus on trends and storytelling.**
+       Electric Power Consumption Analysis
+       World Bank Energy & Emissions Analysis
+       Cereal Yield Global Analysis
+       Infographics Compilation
 
-**Machine Learning & Regression: Predictive modeling and classification.**
-Linear vs. Logistic Regression on Adult Dataset
-Energy-Population Clustering & Curve Fitting
-Weather Data Database Design
+  **Machine Learning & Regression: Predictive modeling and classification.**
+      Linear vs. Logistic Regression on Adult Dataset
+      Energy-Population Clustering & Curve Fitting
+      Weather Data Database Design
 
-**Time Series & Forecasting: Sequential data patterns.**
-Time Series Modeling & Forecasting
+   **Time Series & Forecasting: Sequential data patterns.**
+      Time Series Modeling & Forecasting
 
-**Computer Vision & NLP: Deep learning for images/text.**
-Image Segmentation with COCO-2017
-Keras Animal Classification
-Automated Image Captioning
+   **Computer Vision & NLP: Deep learning for images/text.**
+      Image Segmentation with COCO-2017
+      Keras Animal Classification
+      Automated Image Captioning
 
-**Big Data & Database: Scalable processing and storage.**
-Netflix Streaming Trends with PySpark
+   **Big Data & Database: Scalable processing and storage.**
+      Netflix Streaming Trends with PySpark
 
-**Capstone & Synthesis: Integrated, research-oriented work.**
+  **Capstone & Synthesis: Integrated, research-oriented work.**
 
-Education
+       Education
 
-Certificates
+       Certificates
 
-Contact
+       Contact
 
 **Portfolio Projects**
 In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
@@ -157,6 +157,6 @@ BEng Aeronautical Engineering (Distinction) | Vel Tech University, Chennai, Indi
 • Programming Basics and Data Analytics with Python (Training)
 • Data Analytics with R (Training)
 • SQL (Training)
-Contacts
+**Contacts**
 LinkedIn: linkedin.com/in/mouli-sirigiri-data-analyst
 Email: moulisirigiri3@gmail.com

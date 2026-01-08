@@ -163,12 +163,19 @@ MSc Data Science (Distinction) | University of Hertfordshire, Hatfield, UK | Jan
 BEng Aeronautical Engineering (Distinction) | Vel Tech University, Chennai, India | Jun 2018 – May 2022
 
 **Certificates**
+
 • Salesforce Tableau Certificate for Data Analyst (Nov 2025)
+
 • Microsoft Certified: Power BI Data Analyst Associate (Dec 2025)
+
 • Business Analytics with Excel (Training)
+
 • Programming Basics and Data Analytics with Python (Training)
+
 • Data Analytics with R (Training)
+
 • SQL (Training)
+
 **Contacts**
 LinkedIn: linkedin.com/in/mouli-sirigiri-data-analyst
 Email: moulisirigiri3@gmail.com

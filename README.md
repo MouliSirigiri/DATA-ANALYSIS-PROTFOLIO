@@ -177,5 +177,7 @@ BEng Aeronautical Engineering (Distinction) | Vel Tech University, Chennai, Indi
 • SQL (Training)
 
 **Contacts**
+
 LinkedIn: linkedin.com/in/mouli-sirigiri-data-analyst
+
 Email: moulisirigiri3@gmail.com

@@ -15,94 +15,148 @@ This is a repository to showcase skills, share projects and track my progress in
 
 About Portfolio Projects
 
-Python
-Time Series Forecasting – Amazon & Johnson & Johnson
-Tech Store Sales Analysis
-SQL
-Covid 19 Data Exploration
-Nashville Housing Data Cleaning
-R
-Legendary Pokémon Analysis (Study Project)
-Excel / Google Sheets
-Tableau---> go to Tableau..
-Power BI
+**Exploratory Data Analysis & Visualization: Focus on trends and storytelling.**
+Electric Power Consumption Analysis
+World Bank Energy & Emissions Analysis
+Cereal Yield Global Analysis
+Infographics Compilation
+
+**Machine Learning & Regression: Predictive modeling and classification.**
+Linear vs. Logistic Regression on Adult Dataset
+Energy-Population Clustering & Curve Fitting
+Weather Data Database Design
+
+**Time Series & Forecasting: Sequential data patterns.**
+Time Series Modeling & Forecasting
+
+**Computer Vision & NLP: Deep learning for images/text.**
+Image Segmentation with COCO-2017
+Keras Animal Classification
+Automated Image Captioning
+
+**Big Data & Database: Scalable processing and storage.**
+Netflix Streaming Trends with PySpark
+
+**Capstone & Synthesis: Integrated, research-oriented work.**
+
 Education
 
 Certificates
 
 Contact
 
-Portfolio Projects
+**Portfolio Projects**
 In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
 
-Analyzing the Factors Contributing to the Success of a Movie
-Code: Analyzing the Factors Contributing to the Success of a Movie.ipynb
+**Exploratory Data Analysis & Visualization:**
 
-Goal: To determine what factors contribute the most to a movie's success.
+Electric Power Consumption Analysis
 
-Description: The project focused on analyzing a dataset of movies released between 1980 and 2022. The dataset included movie titles, ratings, genres, release dates, budgets, gross earnings, and other relevant information. The project involved loading the data, cleaning and preprocessing it, performing exploratory data analysis (EDA), analyzing the correlation between budget and gross earnings, and implemented Pearson’s correlation statistical analysis.
+Description:
+Time-series trends (kWh/capita) across 8 countries (2001–2014); line/bar/pie charts show China's 200% surge vs. Canada's peak.
+Tech Stack:Pandas, Matplotlib
+Insights:Highlights development gaps (India <1k vs. Canada >16k); relative shares shift (China +7%).
 
-Skills: data cleaning, data analysis, correlation matrices, hypothesis testing, data visualization.
+World Bank Energy & Emissions Analysis
 
-Technology: Python, Pandas, Numpy, Seaborn, Matplotlib, SciPy.
+Description:
+Electricity sources (coal/hydro) and CO2 (kt) for US/China/India/Japan (1960–2022); correlations (r=0.8) and trends.
+Tech Stack:Pandas, Seaborn, Matplotlib
+Insights:China leads CO2 (~10B kt); declining coal in West, rising in Asia—urgent renewables push.
 
-Results: Using Python functions the analysis revealed that votes and budget have the highest correlation with gross earnings, while the company has no significant correlation.
+Cereal Yield Global Analysis
 
-Tech Store Sales Analysis
-Goal: To examine the sales history of the store and extract insights on its performance, as well as to identify potential improvements that can be implemented.
+Description:
+Yields (kg/ha) by top producers (2010–2018); stacked bars/maps link to GDP (r=0.7).
+Tech Stack:Pandas, Matplotlib
+Insights:US/China top; Europe hotspots—tech/climate drives +20% variance.
 
-Code: Tech Store Sales Analysis.ipynb
+Infographics Compilation
 
-Description: The dataset contains a list of sales records. The records include the products for sale and order information(order id, order date, price, quantity ordered and purchase address). The project includes the following steps: data loading, data cleaning and preprocessing, EDA (exploratory data analysis), analyzing sales data and hypothesis testing.
+Description:
+Multi-project visuals (e.g., energy lines, yield maps)
+Tech Stack:Matplotlib, ReportLab
+Insights:Unified storytelling: Trends > tables; e.g., India's energy growth in one glance.
 
-Skills: data cleaning, data analysis, hypothesis testing, data visualization.
+**Machine Learning & Regression**
 
-Technology: Python, Pandas, Matplotlib.
+Linear vs. Logistic Regression on Adult Dataset
 
-Results: Python functions that calculated and visually presented the sales data by month, city, and the most commonly sold items. Additionally, the reasons for the high frequency of these items being sold were analyzed and provided as insights.
+Description:
+Linear predicts 'fnlwgt' (MSE~1.2e12); Logistic classifies income (>50K, acc~82%).
+Tech Stack:scikit-learn, Matplotlib
+Insights:Education/occupation key; Logistic F1=0.75 for minority class—imbalance addressed via encoding.
 
-Nashville Housing Data Cleaning
-Code: Data Cleaning Project Queries: Nashville Housing.sql
+Energy-Population Clustering & Curve Fitting
 
-Description: The dataset contains a list of houses that have been sold in Nashville between 2013 and 2019. This project includes the following steps: data loading, data cleaning and preprocessing.
+Description:
+K-Means (k=3) clusters 4 regions (1985–2019); polynomials predict growth (India +3x).
+Tech Stack:scikit-learn, SciPy, Seaborn
+Insights:r=0.82 energy-pop; EU high-cluster—sustainability focus for India.
 
-Skills: DML(Data Manipulation Language), DQL (Data Query Language), DDL (Data Definition Language).
+Weather Data Database Design
 
-Technology: SQL Server
+Description:
+Synthetic DB (SQLite/Faker); queries avg temp/rain by country (e.g., India 28°C).
+Tech Stack:SQLite, Faker, Pandas
+Insights:FK integrity; ethics: Synthetic avoids PII—extensible for anomalies.
 
-Covid 19 Data Exploration
-Code: COVID Portfolio Project.sql
+**Time Series & Forecasting.**
 
-Description: The dataset contains records of Covid-19 cases, deaths and vaccine records by country in 2020-2021. This project includes the following steps: data loading, data cleaning and preprocessing and EDA (exploratory data analysis).
+Time Series Modeling & Forecasting
 
-Skills: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+Description:
+ARMA/LSTM/GRU on JJ sales (1960–1980) & Amazon stock (2000–2023); LSTM MAPE=3.5%.
+Tech Stack:Statsmodels, Keras
+Insights:RNNs > ARMA for volatility; Amazon to $250 (2026), JJ +15%.
 
-Technology: SQL Server
+**Computer Vision & NLP.**
 
-Legendary Pokémon Analysis
-Goal: To predict Pokémon status based on their characteristics and rank their importance in determining whether a Pokémon is classified as legendary.
+Image Segmentation with COCO-2017
 
-Code: Legendary Pokémon Analysis (Study Project)
+Description:
+Mask R-CNN on subset (cake/car/dog/person); IoU=0.70 avg ('person' 0.75).
+Tech Stack:TensorFlow/Keras, pycocotools
+Insights:Imbalance hurts 'cake' (0.60)—augmentation +10% potential.
 
-Description: The dataset contains a list of Pokémon. The records include their characteristics such as attack, defense, type and size. The project includes the following steps: data loading, data cleaning EDA (exploratory data analysis), analyzing characteristics of different Pokémon.
+Keras Animal Classification
 
-Skills: data cleaning, data analysis, data visualization.
+Description:
+CNN (Conv2D/GlobalAvgPool) classifies cat/dog/wild (64x64); val acc~85%.
+Tech Stack:Keras/TensorFlow, tf.data
+Insights:Wild F1=0.75 (variance); LR decay prevents overfit.
 
-Technology: Tidyverse
+Automated Image Captioning
 
-Education
-University of Colorado, Boulder: Master of Science - MS, Data Science, Dec 2022 - Dec 2024
+Description:
+CNN-LSTM on MS COCO (BLEU-4=0.28); attention +8%.
+Tech Stack:TensorFlow/Keras, NLTK
+Insights:Strong on scenes; Western bias in data—multilingual future.
 
-The University of the West Indies, Mona: Bachelor's degree, Biochemistry and Molecular Biology, 2019 - 2022
 
-Pre University School: Associate's degree, Science and Mathematics, 2017 - 2019
+**Big Data & Database.**
 
-Certificates
-The best way to showcase skills is by doing and sharing your job done but sometimes certificates appear to be as an indirect result. Here's a list of the ones I have (in reverse-chronological order, with the date of completion in brackets):
+Netflix Streaming Trends with PySpark
 
-Google Data Analytics Professional Certificate (Sep 2022) (Coursera - Google)
-Tableau (Oct 2022) (Coursera - University of California, Davis)
-Python for Data Science (Feb 2023) (Coursera - University of Colorado Boulder)
+Description:
+Spark queries Top 10 data (~7M rows); top films/seasons by weeks (e.g., "Stranger Things" 52 UK weeks).
+Tech Stack:PySpark, DataFrames
+Insights:Regional prefs: K-dramas Asia; scalable for 50+ countries.
+
+
+**Education**
+
+MSc Data Science (Distinction) | University of Hertfordshire, Hatfield, UK | Jan 2023 – Feb 2025
+
+BEng Aeronautical Engineering (Distinction) | Vel Tech University, Chennai, India | Jun 2018 – May 2022
+
+**Certificates**
+• Salesforce Tableau Certificate for Data Analyst (Nov 2025)
+• Microsoft Certified: Power BI Data Analyst Associate (Dec 2025)
+• Business Analytics with Excel (Training)
+• Programming Basics and Data Analytics with Python (Training)
+• Data Analytics with R (Training)
+• SQL (Training)
 Contacts
-LinkedIn: @tiannaparris
-Email: parristianna@yahoo.com
+LinkedIn: linkedin.com/in/mouli-sirigiri-data-analyst
+Email: moulisirigiri3@gmail.com

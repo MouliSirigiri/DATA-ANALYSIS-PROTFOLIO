@@ -16,25 +16,37 @@ This is a repository to showcase skills, share projects and track my progress in
 About Portfolio Projects
 
   **Exploratory Data Analysis & Visualization: Focus on trends and storytelling.**
+       
        Electric Power Consumption Analysis
+       
        World Bank Energy & Emissions Analysis
+       
        Cereal Yield Global Analysis
+       
        Infographics Compilation
 
   **Machine Learning & Regression: Predictive modeling and classification.**
+      
       Linear vs. Logistic Regression on Adult Dataset
+      
       Energy-Population Clustering & Curve Fitting
+      
       Weather Data Database Design
 
    **Time Series & Forecasting: Sequential data patterns.**
+      
       Time Series Modeling & Forecasting
 
    **Computer Vision & NLP: Deep learning for images/text.**
+      
       Image Segmentation with COCO-2017
+      
       Keras Animal Classification
+      
       Automated Image Captioning
 
    **Big Data & Database: Scalable processing and storage.**
+      
       Netflix Streaming Trends with PySpark
 
   **Capstone & Synthesis: Integrated, research-oriented work.**
